@@ -5,6 +5,8 @@ using namespace std;
 
 // TODO 
 // heuristic search, a* algorithm
+// https://github.com/microsoft/vscode/issues/113458
+// s**t vscode
 class Square
 {
 public:
@@ -58,5 +60,4 @@ int main() {
   auto s6 = s1 ^ (s5 - 4);
   cout << s6.a << " " << s6.b <<
       " " << s6.get_perimeter() << endl;
-  // how to set max column length
 }
