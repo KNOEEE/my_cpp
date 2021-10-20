@@ -83,6 +83,10 @@ public:
   // the object has type qualifiers that are not compatible with the member 
   // function "HistogramBucketMapper::PrintBucketValues" -- object type is: 
   // const HistogramBucketMapper
+
+  // You cannot call a non-const member function on a const object or through
+  // a const reference or pointer to const.
+  // https://stackoverflow.com/questions/24677032/object-has-type-qualifiers-that-are-not-compatible-with-the-member-function
   void PrintBucketValues() const {
     uint64_t b = 0;
     for (int i = 0; i < 10; i++) {
