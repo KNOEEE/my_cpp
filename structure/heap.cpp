@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// thank god I'm glad I got a heap class here
 class heap {
 private:
   // 堆序列的主体 其实我在想如果换成的vector可以吗
